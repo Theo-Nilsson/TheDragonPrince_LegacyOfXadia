@@ -1,0 +1,12 @@
+{
+	"type": "tdp_lox:sunfire_forging",
+	"ingredients": [
+		{"item": "minecraft:lava_bucket"}, {"item": "tdp_lox:sun_ingot"}, {"item": "minecraft:lava_bucket"},
+		{"item": "iceandfire:fire_dragon_blood"}, {"item": "tdp_lox:firerune"},{"item": "iceandfire:fire_dragon_blood"},
+		{"item": "minecraft:leather"}, {"item": "tdp_lox:withersteel_rod"}, {"item": "iceandfire:fire_dragon_heart"}
+	],
+	"result": {
+		"count": 1,
+		"item": "tdp_lox:sunfireblade"
+	}
+}

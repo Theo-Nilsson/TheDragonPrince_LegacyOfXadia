@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "tdp_lox:tinted_light_bottle"
+		},
+		"X": {
+			"tag": "tdp_lox:ingots/ingots"
+		}
+	},
+	"result": {
+		"item": "tdp_lox:sun_ingot"
+	}
+}

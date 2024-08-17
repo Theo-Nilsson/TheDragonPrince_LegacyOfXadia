@@ -1,0 +1,12 @@
+{
+    "name": "Sunfire Elf",
+    "description": "An elf living in the grandiose city of Lux Aurea.",
+    "impact": 2,
+    "loading_priority": 1,
+    "powers": [
+        "tdp_lox:elf/sunfire/heat_being",
+        "tdp_lox:elf/sunfire/toggle_heat_being",
+        "tdp_lox:elf/sunfire/sun_arcanum"
+    ],
+    "icon": "minecraft:magma_block"
+}

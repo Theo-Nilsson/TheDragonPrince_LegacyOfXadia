@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tdp_lox:steel_dragon_ingot"
+		}
+	],
+	"result": {
+		"count": 9,
+		"item": "tdp_lox:steel_dragon_nugget"
+	}
+}

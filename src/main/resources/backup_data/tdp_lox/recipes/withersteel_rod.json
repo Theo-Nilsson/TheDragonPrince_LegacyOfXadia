@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "tdp_lox:withersteel_ingot"
+		}
+	},
+	"result": {
+		"count": 4,
+		"item": "tdp_lox:withersteel_rod"
+	}
+}

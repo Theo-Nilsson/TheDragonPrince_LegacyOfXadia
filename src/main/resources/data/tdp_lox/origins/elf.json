@@ -1,0 +1,11 @@
+{
+    "loading_priority": 1,
+    "name": "Elf",
+    "description": "Elves are one of many creatures living to the west of the border of Xadia.",
+    "impact": 1,
+    "icon": "tdp_lox:elf_horns",
+    "powers": [
+        "tdp_lox:elf/horns",
+        "tdp_lox:elf/elf"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+		"parent": "tdp_lox:item/magnifying_glass_3d"
+	},
+	"perspectives": {
+		"gui": {
+			"parent": "tdp_lox:item/magnifying_glass_2d"
+		},
+		"ground": {
+			"parent": "tdp_lox:item/magnifying_glass_2d"
+		},
+		"fixed": {
+			"parent": "tdp_lox:item/magnifying_glass_2d"
+		}
+	}
+}

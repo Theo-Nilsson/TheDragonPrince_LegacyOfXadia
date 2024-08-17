@@ -1,0 +1,12 @@
+{
+	"type": "tdp_lox:sunfire_forging",
+	"ingredients": [
+		{"item": "tdp_lox:sun_ingot"}, {"item": "tdp_lox:sun_ingot"}, {"item": "tdp_lox:sun_ingot"},
+		{"item": "tdp_lox:sun_ingot"}, {"item": "minecraft:netherite_ingot"}, {"item": "tdp_lox:sun_ingot"},
+		{"item": "tdp_lox:firerune"}, {}, {"item": "tdp_lox:firerune"}
+	],
+	"result": {
+		"count": 1,
+		"item": "tdp_lox:sunforge_leggings"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#Y#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:cobblestone"
+		},
+		"Y": {
+			"item": "minecraft:stone_shovel"
+		}
+	},
+	"result": {
+		"item": "tdp_lox:mortar_and_pestle"
+	}
+}

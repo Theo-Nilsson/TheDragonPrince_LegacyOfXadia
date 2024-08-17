@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tdp_lox:scorch_berry_bush"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "tdp_lox:scorch_berry_bush",
+					"properties": {
+						"age": 3
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+ {
+    "replace": true,
+    "order": 1,
+    "origins": [
+        "tdp_lox:human",
+        "tdp_lox:elf"
+    ]
+}

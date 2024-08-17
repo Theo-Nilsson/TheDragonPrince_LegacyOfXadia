@@ -1,0 +1,18 @@
+{
+    "allow_random_unchoosable": false,
+    "order": 2,
+    "enabled": true,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "tdp_lox:elf",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "tdp_lox:sunfire_elf"
+            ]
+        }
+    ],
+    "name": "Elf"
+}

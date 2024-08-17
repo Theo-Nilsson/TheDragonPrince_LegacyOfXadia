@@ -1,0 +1,11 @@
+{
+    "loading_priority": 1,
+    "name": "Human",
+    "description": "A normal inhabitant of the western side of Xadia, the Human Kingdoms.",
+    "icon": "minecraft:player_head",
+    "powers": [
+        "tdp_lox:human/human_spirit",
+        "tdp_lox:human/diplomacy"
+    ],
+    "impact": 1
+}

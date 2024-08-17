@@ -1,0 +1,11 @@
+{
+	"type": "forge:add_spawns",
+	"biomes": "minecraft:desert",
+	"spawners": {
+		"type": "tdp_lox:sunfire_elf_wanderer",
+		"category": "creature",
+		"minCount": 1,
+		"maxCount": 1,
+		"weight": 3
+	}
+}

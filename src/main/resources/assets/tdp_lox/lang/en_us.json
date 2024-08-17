@@ -1,0 +1,109 @@
+{
+	"creativetab.lox_tab": "LOX",
+
+	"item.tdp_lox.sunfireblade": "Sunforge Blade",
+	"item.tdp_lox.firerune": "Sun Rune",
+
+	"item.tdp_lox.steel_ingot": "Steel Ingot",
+	"item.tdp_lox.sun_ingot": "Sun Ingot",
+	"item.tdp_lox.steel_dragon_ingot": "Steel-Dragon Blood Alloy Ingot",
+	"item.tdp_lox.steel_dragon_nugget": "Steel-Dragon Blood Alloy Nugget",
+	"item.tdp_lox.withersteel_ingot": "Withersteel Ingot",
+	"item.tdp_lox.withersteel_rod": "Withersteel Rod",
+	"item.tdp_lox.gold_rod": "Golden Rod",
+
+	"item.tdp_lox.empty_bottle": "Empty Bottle",
+	"item.tdp_lox.tinted_empty_bottle": "Tinted Empty Bottle",
+	"item.tdp_lox.cloud_bottle": "Cloud in a Bottle",
+	"item.tdp_lox.tinted_light_bottle": "Light in a Bottle",
+
+	"item.tdp_lox.primal_stone_sky": "Primal Stone (Sky)",
+	"item.tdp_lox.primal_stone_sun": "Primal Stone (Sun)",
+	"item.tdp_lox.empty_primal_stone": "Primal Stone (Empty)",
+	"item.tdp_lox.sun_staff": "Sun Staff",
+	"item.tdp_lox.corrupted_sun_staff": "Corrupted Sun Staff",
+
+	"item.tdp_lox.ocarina": "Ocarina",
+	"item.tdp_lox.magma_heart": "Heart of the Magma Titan",
+
+	"item.tdp_lox.sunforge_helmet": "Sunforge Helmet",
+	"item.tdp_lox.sunforge_chestplate": "Sunforge Chestplate",
+	"item.tdp_lox.sunforge_leggings": "Sunforge Leggings",
+	"item.tdp_lox.sunforge_boots": "Sunforge Boots",
+
+	"item.tdp_lox.bark": "Bark",
+	"item.tdp_lox.cork": "Cork",
+
+	"item.tdp_lox.parchment": "Parchment",
+	"item.tdp_lox.spell_parchment": "Spell Parchment",
+
+	"item.tdp_lox.magma_titan_spawn_egg": "Magma Titan Spawn Egg",
+	"item.tdp_lox.sunfire_elf_wanderer_spawn_egg": "Sunfire Elf Wanderer Spawn Egg",
+	"item.tdp_lox.crow_spawn_egg": "Crow Spawn Egg",
+
+	"item.tdp_lox.scorch_berries": "Scorch Berries",
+	"item.tdp_lox.finished_scorch_berries": "Finished Scorch Berries",
+
+	"item.tdp_lox.flour": "Flour",
+	"item.tdp_lox.salt": "Salt",
+	"item.tdp_lox.scones": "Scones",
+	"item.tdp_lox.scorch_berry_scones": "Scorch Berry Scones",
+
+	"item.tdp_lox.strainer": "Strainer",
+	"item.tdp_lox.mortar_and_pestle": "Mortar and Pestle",
+	"item.tdp_lox.magnifying_glass": "Magnifying Glass",
+
+	"item.tdp_lox.ignis_lacto": "Ignis Iacto",
+
+	"item.tdp_lox.elf_horns": "Elf Horns",
+
+	"tooltip.tdp_lox.primal_stone_sky.1": "\"I guess I was just distracted trying to draw this... prima-ball.\"\n\"Primal Stone.\"\n\"Right.\"\n\"It holds the pure essence of a primal spirit inside.\"\n\"[sighs] Primal Source?\"\n\"Right.\"",
+	"tooltip.tdp_lox.primal_stone_sun.1": "It holds a piece of the sun's pure essence inside.",
+	"tooltip.tdp_lox.cloud_bottle.1": "It's... fluffy...?",
+	"tooltip.tdp_lox.magma_heart.1": "It's really warm!",
+	"tooltip.tdp_lox.elf_horns.1": "Removing them is a permanent decision...",
+
+	"block.tdp_lox.sunfire_forge": "Sun Forge",
+	"block.tdp_lox.sunforge": "Great Orb",
+	"block.tdp_lox.spell_writer": "Spell Writer",
+
+	"block.tdp_lox.sunfire_bricks": "Sunforge Bricks",
+	"block.tdp_lox.sunfire_stone": "Sunforge Stone",
+	"block.tdp_lox.sunfire_stone_stairs": "Sunforge Stone Stairs",
+	"block.tdp_lox.sunfire_stone_slab": "Sunforge Stone Slab",
+	"block.tdp_lox.sunfire_stone_button": "Sunforge Stone Button",
+	"block.tdp_lox.sunfire_stone_pressure_plate": "Sunforge Stone Pressure Plate",
+	"block.tdp_lox.sunfire_stone_wall": "Sunforge Stone Wall",
+	"block.tdp_lox.sunfire_stone_door": "Sunforge Stone Door",
+	"block.tdp_lox.sunfire_stone_trapdoor": "Sunforge Stone Trapdoor",
+
+	"block.tdp_lox.sunfire_chair": "Chair",
+
+	"block.tdp_lox.tenebris_praesidium": "Tenebris Praesidium",
+
+	"entity.tdp_lox.magma_titan": "Magma Titan",
+	"entity.tdp_lox.sunfire_elf_wanderer": "Sunfire Elf Wanderer",
+
+	"enchantment.tdp_lox.heat_scabbard": "§aRune: Flame Scabbard",
+	"enchantment.tdp_lox.solar_negation": "§aRune: Solar Negation",
+	"enchantment.tdp_lox.dragon_slayer": "§aRune: Dragon Slayer",
+	"enchantment.tdp_lox.earthmender": "§aRune: Earthmender",
+
+	"effect.tdp_lox.heat_being": "Heat Being",
+	"effect.tdp_lox.sleep": "Sleep",
+
+	"death.attack.scorchBerryBush": "%s was pricked to death by a scorch berry bush.",
+
+	"sounds.tdp_lox.dark_eyed_sailor": "The Dark-Eyed Sailor plays",
+
+	"key.category.tdp_lox.1": "The Dragon Prince: Legacy of Xadia",
+	"key.tdp_lox.change_spell": "Change Spell",
+	"key.tdp_lox.innate_spell": "Cast Innate Spell",
+
+	"spellparchment.tdp_lox.default": "No Spell.",
+
+	"change_spell.tdp_lox": "Changed spell to: %s",
+
+	"crow.tdp_lox.bundle.deliver.success": "Bundle delivered to %s.",
+	"crow.tdp_lox.bundle.deliver.fail": "Selected player is not found or not online."
+}

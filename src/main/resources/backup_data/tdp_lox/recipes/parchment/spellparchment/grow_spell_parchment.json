@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tdp_lox:parchment"
+		},
+		{
+			"item": "minecraft:fire_charge"
+		},
+		{
+			"item": "tdp_lox:magma_heart"
+		}
+	],
+	"result": {
+		"item": "tdp_lox:spell_parchment"
+	}
+}

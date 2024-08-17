@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/streets/straight",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 15
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/streets/turn_left",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/streets/turn_right",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 3
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/streets/street_four_way_small",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 9
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/streets/street_four_way",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 4
+		}
+	],
+	"fallback": "minecraft:empty"
+}

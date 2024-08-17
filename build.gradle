@@ -1,0 +1,202 @@
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = '1.0.0-1.20.1'
+group = 'io.github.theonilsson.thedragonprince_legacyofxadia' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'thedragonprince_legacyofxadia'
+
+// Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    // The mappings can be changed at any time and must be in the following format.
+    // Channel:   Version:
+    // official   MCVersion             Official field/method names from Mojang mapping files
+    // parchment  YYYY.MM.DD-MCVersion  Open community-sourced parameter names and javadocs layered on top of official
+    //
+    // You must be aware of the Mojang license when using the 'official' or 'parchment' mappings.
+    // See more information here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+    //
+    // Parchment is an unofficial project maintained by ParchmentMC, separate from MinecraftForge
+    // Additional setup is needed to use their mappings: https://github.com/ParchmentMC/Parchment/wiki/Getting-Started
+    //
+    // Use non-default mappings at your own risk. They may not always work.
+    // Simply re-run your setup task after changing the mappings to update your workspace.
+    mappings channel: 'parchment', version: '2023.09.03-1.20.1'
+
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'thedragonprince_legacyofxadia'
+
+            mods {
+                thedragonprince_legacyofxadia {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'thedragonprince_legacyofxadia'
+
+            mods {
+                thedragonprince_legacyofxadia {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        gameTestServer {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'thedragonprince_legacyofxadia'
+
+            mods {
+                thedragonprince_legacyofxadia {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            args '--mod', 'tdp_lox', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                tdp_lox {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
+    // flatDir {
+    //     dir 'libs'
+    // }
+
+    maven { url = "https://cursemaven.com" }
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
+        }
+    }
+    maven {
+        name = 'C4\'s Maven'
+        url = 'https://maven.theillusivec4.top/'
+    }
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.1.1'
+
+    // Real mod deobf dependency examples - these get remapped to your current mappings
+    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
+
+    // Citadel
+    implementation fg.deobf("curse.maven:citadel-331936:5075402")
+
+    // Ice and Fire
+    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5122408")
+
+    // Origins
+    implementation fg.deobf("curse.maven:origins-forge-474438:5314209")
+    implementation fg.deobf("curse.maven:apoli-forge-975561:5404008")
+    implementation fg.deobf("curse.maven:calio-977891:5404005")
+
+    // Caelus API
+    implementation fg.deobf("curse.maven:caelus-308989:5281700")
+
+    // Geckolib
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:${geckolib_version}")
+    implementation("com.eliotlash.mclib:mclib:20")
+
+    // JEI
+    compileOnly(fg.deobf("mezz.jei:jei-1.20.1-common-api:15.2.0.27"))
+    compileOnly(fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.2.0.27"))
+    runtimeOnly(fg.deobf("mezz.jei:jei-1.20.1-forge:15.2.0.27"))
+
+    // Terra Blender
+    //implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-${terrablender_version}")
+
+    // Better Combat - Does not boot up in client for me, ugh
+    // runtimeOnly fg.deobf("curse.maven:better-combat-by-daedelus-${better_combat_version}")
+    // runtimeOnly fg.deobf("curse.maven:cloth-config-348521:4633416")
+
+    // Mixins
+    annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "tdp_lox",
+                "Specification-Vendor"    : "Blinken77YT (Theo Nilsson)",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "Blinken77YT (Theo Nilsson)",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava( MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}

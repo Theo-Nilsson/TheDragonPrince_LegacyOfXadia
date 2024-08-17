@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tdp_lox:block/sunfire_stone",
+    "side": "tdp_lox:block/sunfire_stone",
+    "top": "tdp_lox:block/sunfire_stone"
+  }
+}

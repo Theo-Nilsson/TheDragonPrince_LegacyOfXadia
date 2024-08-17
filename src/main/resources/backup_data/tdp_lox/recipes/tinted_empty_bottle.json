@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#X#",
+		"# #",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:tinted_glass"
+		},
+		"X": {
+			"item": "tdp_lox:cork"
+		}
+	},
+	"result": {
+		"item": "tdp_lox:tinted_empty_bottle"
+	}
+}

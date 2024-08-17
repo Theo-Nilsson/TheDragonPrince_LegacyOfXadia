@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tdp_lox:sun_ingot"
+    },
+    "X": {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    "Z": {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "ZXZ",
+    "###"
+  ],
+  "result": {
+    "item": "tdp_lox:firerune"
+  },
+  "show_notification": true
+}

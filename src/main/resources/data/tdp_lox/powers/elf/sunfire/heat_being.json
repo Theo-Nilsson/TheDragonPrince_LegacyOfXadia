@@ -1,0 +1,71 @@
+{
+    "type": "origins:multiple",
+    "model_color": {
+        "type": "origins:model_color",
+        "red": 1.0,
+        "green": 0.1,
+        "blue": 0.1,
+        "alpha": 1.0,
+        "condition": {
+            "type": "apoli:power_active",
+            "power": "tdp_lox:elf/sunfire/toggle_heat_being"
+        }
+    },
+    "potion_effects": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "tdp_lox:heat_being",
+                    "amplifier": 0,
+                    "duration": 40,
+                    "is_ambient": true,
+                    "show_icon": true,
+                    "show_particles": false
+                },
+                {
+                    "effect": "minecraft:hunger",
+                    "amplifier": 2,
+                    "duration": 40,
+                    "is_ambient": true,
+                    "show_icon": false,
+                    "show_particles": false
+                },
+                {
+                    "effect": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": 40,
+                    "is_ambient": true,
+                    "show_icon": true,
+                    "show_particles": false
+                }
+            ]
+        },
+        "interval": 39,
+        "condition": {
+            "type": "apoli:power_active",
+            "power": "tdp_lox:elf/sunfire/toggle_heat_being"
+        }
+    },
+    "fire_imunity": {
+        "type": "origins:fire_immunity",
+        "condition": {
+            "type": "apoli:power_active",
+            "power": "tdp_lox:elf/sunfire/toggle_heat_being"
+        }
+    },
+    "hot": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 80
+        },
+        "cooldown": 10,
+        "condition": {
+            "type": "apoli:power_active",
+            "power": "tdp_lox:elf/sunfire/toggle_heat_being"
+        }
+    },
+    "hidden": true
+}

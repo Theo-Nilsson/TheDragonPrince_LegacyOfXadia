@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "tdp_lox:block/sunfire_stone"
+  }
+}

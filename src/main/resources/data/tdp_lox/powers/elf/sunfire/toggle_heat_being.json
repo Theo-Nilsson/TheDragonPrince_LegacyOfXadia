@@ -1,0 +1,10 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "retain_state": true,
+    "name": "Heat Being",
+    "description": "Your innate connection to the sun allows you to access a state of enhanced physical power."
+}

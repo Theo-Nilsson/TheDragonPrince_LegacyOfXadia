@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": {
+			"item": "tdp_lox:bark"
+		}
+	},
+	"result": {
+		"item": "tdp_lox:cork",
+		"count": 4
+	}
+}

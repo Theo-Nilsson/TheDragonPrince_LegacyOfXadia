@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#X#",
+		"#Y#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:glass"
+		},
+		"X": {
+			"item": "tdp_lox:cork"
+		},
+		"Y": {
+			"item": "minecraft:amethyst_shard"
+		}
+	},
+	"result": {
+		"item": "tdp_lox:tinted_empty_bottle"
+	}
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragonsteel_fire_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:dragonsteel_fire_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fire_dragon_blood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:fire_dragon_blood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sun_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tdp_lox:sun_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tdp_lox:firerune"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sun_ingot",
+      "has_dragonsteel_fire_ingot",
+      "has_fire_dragon_blood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tdp_lox:firerune"
+    ]
+  },
+  "sends_telemetry_event": false
+}

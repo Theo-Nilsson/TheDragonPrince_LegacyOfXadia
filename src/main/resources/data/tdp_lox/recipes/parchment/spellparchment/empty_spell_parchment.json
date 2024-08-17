@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tdp_lox:parchment"
+		}
+	],
+	"result": {
+		"item": "tdp_lox:spell_parchment"
+	}
+}

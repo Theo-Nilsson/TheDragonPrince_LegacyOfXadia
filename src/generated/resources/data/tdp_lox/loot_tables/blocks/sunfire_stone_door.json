@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "tdp_lox:sunfire_stone_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "tdp_lox:sunfire_stone_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tdp_lox:blocks/sunfire_stone_door"
+}

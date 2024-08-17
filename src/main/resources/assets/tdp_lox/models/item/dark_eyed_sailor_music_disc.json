@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "tdp_lox:item/dark_eyed_sailor_music_disc"
+	}
+}

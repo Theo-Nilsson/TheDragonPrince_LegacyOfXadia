@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:water_bucket"
+		},
+		{
+			"item": "tdp_lox:flour"
+		},
+		{
+			"item": "tdp_lox:salt"
+		},
+		{
+			"item": "minecraft:milk_bucket"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:egg"
+		},
+		{
+			"item": "tdp_lox:scorch_berries"
+		}
+	],
+	"result": {
+		"item": "tdp_lox:scorch_berry_scones"
+	}
+}

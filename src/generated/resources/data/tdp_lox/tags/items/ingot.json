@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:iron_ingot",
+    "minecraft:netherite_ingot",
+    "iceandfire:dragonsteel_fire_ingot",
+    "iceandfire:dragonsteel_ice_ingot",
+    "iceandfire:dragonsteel_lightning_ingot",
+    "tdp_lox:sun_ingot",
+    "tdp_lox:steel_ingot"
+  ]
+}

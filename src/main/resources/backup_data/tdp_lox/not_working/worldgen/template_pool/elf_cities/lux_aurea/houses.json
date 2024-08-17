@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/houses/house_small",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/houses/house_big_01",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/houses/house_big_02",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/houses/armory_store",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "tdp_lox:villages/lux_aurea/houses/food_store",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty"
+}

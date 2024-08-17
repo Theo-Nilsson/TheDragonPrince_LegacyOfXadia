@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "tdp_lox:block/sunfire_stone"
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.circulus_luminis",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "circulus_luminis",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "top",
+					"parent": "circulus_luminis",
+					"pivot": [0, 20.5, 0],
+					"cubes": [
+						{"origin": [-12, 18, -12], "size": [24, 5, 24], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "bottom",
+					"parent": "circulus_luminis",
+					"pivot": [0, 9.5, 0],
+					"cubes": [
+						{"origin": [-12, 7, -12], "size": [24, 5, 24], "uv": [0, 28]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "tdp_lox:elf_horns",
+        "slot": "39"
+    },
+    "recurrent": true,
+    "name": "Horns",
+    "description": "You have horns."
+}

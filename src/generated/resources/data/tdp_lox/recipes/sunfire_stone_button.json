@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tdp_lox:sunfire_stone"
+    }
+  ],
+  "result": {
+    "item": "tdp_lox:sunfire_stone_button"
+  }
+}

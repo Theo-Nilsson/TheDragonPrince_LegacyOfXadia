@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "Y": {
+      "item": "minecraft:quartz"
+    },
+    "Z": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "XZX",
+    "ZYZ",
+    "XZX"
+  ],
+  "result": {
+    "item": "tdp_lox:empty_primal_stone"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "X": {
+      "item": "tdp_lox:sunfire_bricks"
+    },
+    "Y": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "pattern": [
+    "#Y#",
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "item": "tdp_lox:sunfire_forge"
+  },
+  "show_notification": true
+}

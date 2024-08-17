@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:hero_of_the_village",
+                "amplifier": 2,
+                "duration": 20,
+                "show_icon": false,
+                "show_particles": false,
+                "is_ambient": true
+            }
+        ]
+    },
+    "interval": 20,
+    "name": "Diplomacy",
+    "description": "Humans are skilled negotiators and can lower the price of trades. (Passive Hero of the Village)"
+}

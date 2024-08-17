@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "tdp_lox:item/bottle_overlay",
+		"layer1": "tdp_lox:item/empty_bottle"
+	}
+}
