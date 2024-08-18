@@ -23,3 +23,7 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# Backups
+src/main/resources/backup_assets
+src/main/resources/backup_data
